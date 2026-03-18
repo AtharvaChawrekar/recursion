@@ -345,25 +345,27 @@ Typing `@` in the chat input shows a popup with:
 `@delay` — Handle a disruption
 `@optimize` — Fine-tune the plan
 ---
-12. Feature Summary Table
-Feature	Implementation	Status
-Landing page (marketing)	`page.tsx`	✅ Complete
-Dark / Light theme	next-themes + Tailwind	✅ Complete
-User sign-up (5-step onboarding)	`onboarding/page.tsx` + Supabase Auth	✅ Complete
-User login / forgot password	`auth-buttons.tsx` + Supabase	✅ Complete
-Trip creation	`useTrips.addTrip` + Supabase	✅ Complete
-Real-time group chat	Supabase Realtime INSERT	✅ Complete
-AI chat (@Safar)	Groq SSE streaming	✅ Complete
-Typing indicators	Supabase Broadcast (no DB)	✅ Complete
-Swipe-to-reply	Framer Motion drag	✅ Complete
-Voice input	Web Speech API	✅ Complete
-@mention autocomplete	Custom popup with keyboard nav	✅ Complete
-Itinerary generation	Groq JSON mode + Supabase	✅ Complete
-Itinerary persistence	`trips.itinerary_data` JSONB	✅ Complete
-Live weather alerts	OpenWeatherMap API	✅ Complete
-Live flight alerts	AviationStack API	✅ Complete
-AI disruption replanning	Groq + mode:"replan"	✅ Complete
-Collaborative invitations	Supabase invitations table	✅ Complete
-PDF export	jsPDF + form POST	✅ Complete
-Immersive map preview	Leaflet.js satellite/dark tiles	✅ Complete
-User profile / preferences	Supabase users.preferences JSONB	✅ Complete
+## 📋 Feature Summary
+
+| Feature | Implementation | Status |
+|---|---|---|
+| Landing page (marketing) | `page.tsx` | ✅ Complete |
+| Dark / Light theme | next-themes + Tailwind | ✅ Complete |
+| User sign-up (5-step onboarding) | `onboarding/page.tsx` + Supabase Auth | ✅ Complete |
+| User login / forgot password | `auth-buttons.tsx` + Supabase | ✅ Complete |
+| Trip creation | `useTrips.addTrip` + Supabase | ✅ Complete |
+| Real-time group chat | Supabase Realtime INSERT | ✅ Complete |
+| AI chat (@Safar) | Groq SSE streaming | ✅ Complete |
+| Typing indicators | Supabase Broadcast (no DB) | ✅ Complete |
+| Swipe-to-reply | Framer Motion drag | ✅ Complete |
+| Voice input | Web Speech API | ✅ Complete |
+| @mention autocomplete | Custom popup with keyboard nav | ✅ Complete |
+| Itinerary generation | Groq JSON mode + Supabase | ✅ Complete |
+| Itinerary persistence | `trips.itinerary_data` JSONB | ✅ Complete |
+| Live weather alerts | OpenWeatherMap API | ✅ Complete |
+| Live flight alerts | AviationStack API | ✅ Complete |
+| AI disruption replanning | Groq + mode:"replan" | ✅ Complete |
+| Collaborative invitations | Supabase invitations table | ✅ Complete |
+| PDF export | jsPDF + form POST | ✅ Complete |
+| Immersive map preview | Leaflet.js satellite/dark tiles | ✅ Complete |
+| User profile / preferences | Supabase users.preferences JSONB | ✅ Complete |
