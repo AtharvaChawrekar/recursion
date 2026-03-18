@@ -1,6 +1,4 @@
-🗺️ SyncRoute — Project Memory & Knowledge Base
-> **Last Updated:** March 18, 2026  
-> **Repository:** github.com/Omkar1027/SyncRoute  
+🗺️ SyncRoute — Project Memory & Knowledge Base 
 > **Stack:** Next.js 16 · React 19 · TypeScript · Supabase · Groq (LLaMA 3.3-70B) · Tailwind CSS v4 · Framer Motion
 ---
 📌 Table of Contents
